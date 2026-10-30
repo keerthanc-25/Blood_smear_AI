@@ -1,0 +1,28 @@
+```text
+# =====================================================
+# HemoVision AI - Python dependencies
+# =====================================================
+
+# API backend
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Image processing
+numpy
+opencv-python
+Pillow
+
+# Deep learning and inference
+torch
+torchvision
+ultralytics
+
+# PDF report generation
+reportlab
+
+# Data processing and evaluation
+pandas
+scikit-learn
+matplotlib
+```

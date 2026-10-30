@@ -1,0 +1,79 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Node.js / Next.js
+node_modules/
+.next/
+out/
+
+# Datasets
+data/
+datasets/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+*.engine
+*.safetensors
+
+# Training outputs
+runs/
+wandb/
+checkpoints/
+
+# Generated files
+outputs/
+logs/
+*.log
+
+# Medical data
+*.dcm
+*.dicom
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.backup
+*.bak
+*.tmp
+# Local backups and temporary files
+HemoVision_AI_Dashboard_backup_*/
+*.bak
+*.backup
+
+# Dataset and generated files
+malaria_label_scan.csv
+teacher_demo_images/
+requirements-current-environment.txt
+
+# Local notes and temporary code exports
+notepad.txt
+stage2_code.txt
+test_stage2_code.txt
+
+# Python and frontend dependencies
+__pycache__/
+*.pyc
+node_modules/
+.next/
+.env
+.env.*
+!.env.example
+
+# Model weights and training outputs
+*.pt
+*.pth
+*.onnx
+*.engine
+*.ckpt
